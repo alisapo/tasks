@@ -1,0 +1,104 @@
+.qqq {
+  max-width: 975px;
+  width: 100%;
+}
+
+.title {
+  padding: 7px 38px 7px 0;
+  background-color: #1a4876;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newForm {
+  display: flex;
+  flex-direction: column;
+  padding-left: 38px;
+  padding-top: 22px;
+  background-color: #ecf3f7;
+}
+
+.formTitle {
+  color: #9f9ea7;
+  padding: 23px 0 15px 0;
+  font-size: 14px;
+}
+
+.empty {
+  width: 625px;
+  outline: none;
+  background-color: white;
+}
+
+.saveButton {
+  cursor: pointer;
+  color: white;
+  background-color: #008cf0;
+  border-radius: 20px;
+  border: none;
+  padding: 13px 33px;
+  font-size: 16px;
+  margin-top: 77px;
+  align-self: flex-start;
+}
+
+.fullForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf3f7;
+}
+
+.editForm {
+  padding-right: 30px;
+}
+
+.text {
+  color: black;
+}
+
+.info {
+  display: flex;
+  padding-left: 38px;
+}
+
+.addComment {
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  display: flex;
+}
+
+.tags p {
+  padding: 3px;
+  margin-right: 3px;
+  background-color: white;
+  color: #9f9ea7;
+  border: 1px solid #9f9ea7;
+  border-radius: 10px;
+}
+
+.comments {
+  margin-top: 45px;
+}
+
+.userComment {
+  margin-bottom: 15px;
+}
+
+.userName,
+.createdAt {
+  color: #525460;
+}
+
+.comment {
+  margin: 10px 0 0 15px;
+  padding: 7px 10px 7px 5px;
+  color: black;
+  background-color: #e3e9f4;
+  border: 1px solid #9f9ea7;
+  border-radius: 5px;
+}

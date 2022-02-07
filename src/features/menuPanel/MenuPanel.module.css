@@ -1,0 +1,25 @@
+.aside {
+  background-color: #002137;
+  width: 95px;
+  height: 100vh;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #002c49;
+}
+
+p,
+svg {
+  color: white;
+}
+
+p {
+  font-size: 12px;
+  padding-top: 3px;
+}
